@@ -7,7 +7,6 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { auth } from "../utilis/firebase";
-import { useNavigate } from "react-router-dom";
 import { BGIMG } from "../utilis/Img&logo";
 import { useDispatch } from "react-redux";
 import { addUser } from "../redux-store/userSlice";
@@ -15,7 +14,6 @@ import PHOTO from "../utilis/icon.png";
 
 const Login = () => {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
   const [isSignInForm, setIsSignInForm] = useState(true);
   const [errorMessage, setErrorMessage] = useState(null);
 
@@ -60,7 +58,6 @@ const Login = () => {
                 photoURL: photoURL
               })
             );
-            navigate("/browse");
         }catch(error){
           setErrorMessage(error.message)
         }
@@ -79,7 +76,6 @@ const Login = () => {
         );
         const user = userCredential.user;
         console.log(user);
-        navigate("/browse");
       } catch (error) {
         const errorCode = error.code;
         const errorMessage = error.message;
