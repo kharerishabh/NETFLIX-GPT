@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import { LOGO } from "../utilis/Img&logo";
+import { LOGO } from "../utilis/Constants";
 import ICON from "../utilis/icon.png";
 import { auth } from "../utilis/firebase";
 import { signOut } from "firebase/auth";
