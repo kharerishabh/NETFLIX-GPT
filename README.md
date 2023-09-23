@@ -29,6 +29,12 @@
 - Embedded the Youtube Video
 - Make it Auto play and mute
 - Tailwind to look main container look awesome
+- Build Secondary component
+- Build the Movie List 
+- Build Movie Card
+-TMDB Image CDN URL
+-Made the Browse Page amazing with Tailwind CSS
+- Custom Hooks for nowPlaying, popular, topRated and upComing Movies
 
 # Features 
 - Login/Signup Page
