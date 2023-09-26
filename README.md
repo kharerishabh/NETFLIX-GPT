@@ -32,8 +32,8 @@
 - Build Secondary component
 - Build the Movie List 
 - Build Movie Card
--TMDB Image CDN URL
--Made the Browse Page amazing with Tailwind CSS
+- TMDB Image CDN URL
+- Made the Browse Page amazing with Tailwind CSS
 - Custom Hooks for nowPlaying, popular, topRated and upComing Movies
 - GPT Search Page
 - GPT Search Bar
