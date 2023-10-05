@@ -94,7 +94,7 @@ const Login = () => {
           alt="bg-img"
         />
       </div>
-      <form className="rounded-md absolute p-4 bg-gray-900 opacity-80 w-6/12 md:w-3/12 my-32 mx-auto left-0 right-0 text-white">
+      <form className="rounded-md absolute p-3 bg-gray-900 opacity-90 w-full md:w-3/12 my-32 mx-auto left-0 right-0 text-white">
         <h1 className="font-bold text-3xl py-4">
           {isSignInForm ? "Sign In" : "Sign UP"}
         </h1>
